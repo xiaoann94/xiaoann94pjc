@@ -1,0 +1,239 @@
+@media only screen and (max-width: 599.9px) {
+  * {
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    box-sizing: border-box;
+  }
+
+  /*Bảng tổng quát Project Chart  */
+
+  .body {
+    width: 98%;
+    background-color: #fff;
+    margin: 1% 1%;
+    padding: 4% 4% 4% 4%;
+    border: 1px solid gray;
+    background-color: rgb(131, 236, 164);
+  }
+  .grid-table {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 1% 1%;
+    gap: 1%;
+  }
+  .goal,
+  .team,
+  .timeline,
+  .scopes,
+  .primary {
+    border: 1px ridge;
+    background-color: rgb(170, 207, 239);
+  }
+  h5 {
+    font-weight: bold;
+  }
+
+  /* Mục tiêu dự án */
+
+  /* Dòng title */
+
+  .goal h3 {
+    padding: 6% 0%;
+    margin: 0% 7%;
+    border-bottom: 1px solid #f7f7f7;
+    color: blue;
+  }
+
+  /* Các đề mục nhỏ trong mục tiêu dự án */
+
+  .goal {
+    padding-bottom: 10%;
+  }
+  .goal-p h5 {
+    padding-left: 3%;
+  }
+  .goal-flex {
+    display: block;
+    margin: 0% 7%;
+    border-bottom: 1px solid #f7f7f7;
+  }
+
+  /* icon lá cờ */
+
+  .fa-solid {
+    width: 15%;
+    padding: 8% 0% 5% 50%;
+    font-size: 28px;
+  }
+
+  /* Dòng ul trong dự án */
+
+  .du-an-1-ul {
+    list-style: none;
+    margin-left: -10%;
+  }
+
+  /* Thành viên trong nhóm */
+
+  /* Dòng title */
+
+  .team h3 {
+    padding: 6% 0%;
+    margin: 0% 7%;
+    border-bottom: 1px solid #f7f7f7;
+    color: blue;
+  }
+
+  /* icon hình người */
+
+  .fa-user {
+    width: 15%;
+    padding: 8% 0% 5% 50%;
+    font-size: 28px;
+  }
+
+  /* Các đề mục nhỏ trong team */
+
+  .team-flex {
+    display: block;
+  }
+  .team-ul {
+    list-style: none;
+    padding-left: 0rem;
+  }
+  .team-des {
+    margin-left: 15%;
+  }
+
+  /* Các mốc thời gian */
+
+  .timeline {
+    padding-bottom: 10%;
+  }
+
+  /* Dòng title */
+
+  .timeline h3 {
+    padding: 6% 0%;
+    margin: 0% 7%;
+    border-bottom: 1px solid #f7f7f7;
+    color: blue;
+  }
+
+  /* Các đề mục nhỏ trong timeline */
+
+  .time-flex {
+    display: block;
+    margin: 3% 7% 0% 7%;
+    border-bottom: 1px dashed #e48a36;
+  }
+  .time-ul {
+    list-style: none;
+    padding-left: 0rem;
+    margin-bottom: 0%;
+  }
+  .time-des {
+    margin-left: 5%;
+    font-size: 16px;
+  }
+  .time-des h5 {
+    margin-bottom: 0%;
+    font-size: 18px;
+  }
+  /* Số thứ tự đầu dòng timeline */
+
+  .number {
+    border: 1px solid orangered;
+    border-radius: 50%;
+    padding: 1% 0% 1% 3%;
+    margin: 3% 79% 1% 5%;
+    background-color: bisque;
+    color: rgb(193, 115, 232);
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  /* Phòng ban liên quan */
+
+  /* Dòng title */
+
+  .scopes {
+    grid-row-start: 2;
+  }
+
+  .scopes h3 {
+    padding: 6% 0%;
+    margin: 0% 7%;
+    border-bottom: 1px solid #f7f7f7;
+    color: blue;
+  }
+
+  /* Các đề mục nhỏ trong mục phòng ban liên quan */
+
+  .scopes-flex {
+    display: block;
+  }
+  .li {
+    list-style: none;
+    margin: 3% 0% 5% 0%;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .li-da {
+    padding-top: 3%;
+  }
+  .ul-scopes li {
+    list-style: none;
+    text-align: left;
+    margin-left: -15%;
+  }
+
+  /* Đề mục dự án ưu tiên */
+
+  /* Dòng title */
+
+  .primary h3 {
+    padding: 6% 0%;
+    margin: 0% 7%;
+    border-bottom: 1px solid #f7f7f7;
+    color: blue;
+  }
+
+  /* Các đề mục trong Primary */
+
+  .primary {
+    grid-row-start: 4;
+    padding-bottom: 5%;
+  }
+
+  /* Icon target dự án */
+
+  .fa-circle-dot {
+    width: 20%;
+    padding: 8% 0% 2% 45%;
+    font-size: 28px;
+  }
+  .primary-flex {
+    display: block;
+    margin-left: 5%;
+  }
+  .primary-des {
+    margin-top: 2%;
+    margin-bottom: 5%;
+  }
+  .primary-des h5 {
+    padding-left: 7%;
+  }
+  .primary-ul li {
+    list-style: none;
+    margin-left: -5%;
+  }
+
+  /* Phần footer */
+
+  .copyright {
+    text-align: center;
+    margin-top: 60%;
+  }
+}
